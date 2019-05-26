@@ -1,0 +1,29 @@
+Documentation For ClassAverageTest.py
+	This is a practice for making a Class for simple Total Average of grade in 5 subjects.
+	The Total Passing Grade is changeable under the class. 
+	The system will ask and record the Fullname
+	The system will ask for grade in your 5 subjects
+	The system will display the total average score using the class
+	
+Documentation For Numeric To Converter.py
+	This is a class for converting a numbers into Roman and into Words.
+	The system will ask to input a number that you would like to convert
+	The system will convert and display your number into words
+	The system will convert and display your number into roman
+	The system converting numbers into words doesn't have a limitation in convertion, it is dependable in the set of list in our code which is upto Sextillion
+	
+Documentation For PyQT_Sample_JackNPoy.py
+	This is a class in a GUI Forms for making a game of Rock Paper Scissor (RPS) or JackN'Poy
+	The system will ask you to choose your weapon from Rock, Paper and Scissor by clicking the weapon's button
+	The system will choose its own weapon randomly
+	The system will show if you WIN, LOSE OR DRAW
+	The system have a hover effect once you put your move over the choosen weapon the image will changeable
+	The system will change the system's choosen weapon image and the image for WIN, LOSE, or DRAW
+	
+Documentation For newproj DJango.py
+	This is a Python - DJango Portfolio Website
+	The database of this HTML was the default DJango 
+	This HTML portfolio was webdesign with Bootstrap
+	The HTML code has Jinja {} or {{}} tag to get the value at DJango
+	
+	
