@@ -24,7 +24,7 @@ class num_convert :
     def words(self):
         lv,r,s,ss,v = 0,0,"","",""       # Set variables
         sn = list(str(self.n))           # Making input value into a list
-        ln = len(sn)                     # Lenght of the string
+        ln = len(sn)                     # Length of the string
         while ln>0:
             sa=int("".join(map(str,sn[-3:])))   # convert list value [-3:] into numbers, same as "".join([str(x) for x in sn[-3:]]) but map() is much faster in process
             s=""                                # reset "s" value, prevent word duplication
