@@ -35,13 +35,13 @@ class num_convert :
                         s+="One "
                     s+=y                                            # adding value into "s" which is our numerical words from "y"
                 elif r>1 :
-                    vv = [x for x in self.w1 if r == x[0]]          # checking the equivalent value of r inside our whole list self.w1
+                    vv = [x for x in self.w1 if r == x[0]]          # checking if the equivalent value of r is inside our whole list self.w1
                     s += (vv[0][1] + y)                             # getting the equivalent numerical words from the whole list
                 sa %= x                                             # Getting the remainder value, this will affect our divisor formula r = sa//x
             v = [x for x in self.w2 if lv == x[0]]                  # Loop for Wordings for Thousand, Millions, Billions, Trillions
             vs = v[0][1]                                            # Getting the numerical words
             ss=s+vs+ss                                              # Gathering all the numerical words
-            del sn[-3:]                                             # Deleting the last 3 digit value because we are done processing
+            del sn[-3:]                                             # Deleting the last 3 digit value because we are done processing it
             ln = len(sn)                                            # checking again for the length of the strings
             lv+=1                                                   # This helps getting the exact Division for Thousand, Millions, Billions
         return ss                                                   # Return the complete numerical Words
