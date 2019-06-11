@@ -17,7 +17,7 @@ Documentation For PyQT_Sample_JackNPoy.py
 	The system will ask you to choose your weapon from Rock, Paper and Scissor by clicking the weapon's button
 	The system will choose its own weapon randomly
 	The system will show if you WIN, LOSE OR DRAW
-	The system have a hover effect once you put your move over the choosen weapon the image will changeable
+	The system have a hover effect once you put your mouse over the choosen weapon the image will change
 	The system will change the system's choosen weapon image and the image for WIN, LOSE, or DRAW
 	
 Documentation For newproj DJango.py
